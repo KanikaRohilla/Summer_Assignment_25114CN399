@@ -3,6 +3,7 @@ package Day_8;
 import java.util.Scanner;
 
 public class charactertri {
+    
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
