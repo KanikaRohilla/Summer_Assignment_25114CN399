@@ -10,7 +10,7 @@ public class charactertri {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) { // outer loop to iterate through each row
-            for (char ch = 'A'; ch < 'A' + i; ch++) { // inner loop to print the required number of characters in each row (ch < 'A' + i means that the number of characters increases with each row)
+            for (char ch = 'A'; ch < 'A' + i; ch++) { // inner loop to print the required number of characters in each row 
                 System.out.print(ch + " "); // print a character without moving to the next line
             }
             System.out.println();
