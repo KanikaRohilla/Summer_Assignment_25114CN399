@@ -10,10 +10,10 @@ public class repeatnumtri {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) { // outer loop to iterate through each row
-            for (int j = 1; j <= i; j++) { // inner loop to print the required number of stars in each row 
-                System.out.print(i + " "); // print the row number followed by a space without moving to the next line
+        for (int j = 1; j <= i; j++) { // inner loop to print the current row number in each row
+                System.out.print(i + " "); // print the current row number followed by a space
             }
-            System.out.println(); // move to the next line after printing all numbers in the current row
+            System.out.println();
         }
 
         sc.close();

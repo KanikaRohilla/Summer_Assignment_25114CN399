@@ -10,8 +10,8 @@ public class numbertri {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) { // outer loop to iterate through each row
-            for (int j = 1; j <= i; j++) { // inner loop to print the required number of stars in each row 
-                System.out.print(j + " "); // print a star without moving to the next line
+        for (int j = 1; j <= i; j++) { // inner loop to print numbers in each row 
+                System.out.print(j + " "); // print the current number followed by a space
             }
             System.out.println();
         }
